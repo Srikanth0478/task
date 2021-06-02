@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>task</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="nav-header">
+				<div class="col-md-6 offset-3">
+			<img src="images/logo.png" width="100%" class="text-center img-fluid">
+		</div>
+		</div>
+	</div>
+</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<h4 class="text-center pb-4 pt-5">PLEASE RESPOND TO THE CUSTOMIZED CHEMICAL REQUIREMENT</h4>
+				<div class="table-responsive">
+				<table class="table">
+					<thead>
+						<tr>
+							<th>Products Details</th>
+							<th>Purity</th>
+							<th>Weight</th>
+							<th>Packs</th>
+							<th>Will you supply this Chemical?</th>
+						</tr>
+					</thead>
+					<tbody>
+						<form id="roles" action="ssim.ac.in">
+							<tr>
+							<td>
+								<a href="#" class="item">Erioglaucine sodium salt</a>
+								<p class="c-num">CAS No. 19774-82-4</p>
+							</td>
+							<td>99.99%</td>
+							<td>50 kg</td>
+							<td>10</td>
+							<td><div class="btn-group" id="status" data-toggle="buttons">
+	           			   <label class="btn btn-default btn-on btn-xs">
+	              			<input type="radio" name="12"value="1" name="multifeatured_module[module_id][status]"required>YES</label>
+	              			<label class="btn btn-default btn-off btn-xs">
+	              			<input type="radio" name="12"value="0" name="multifeatured_module[module_id][status]">NO</label>
+	           			 </div>
+	        				</td>
+	        			</tr>
+	        			<tr>
+							<td>
+								<a href="#" class="item">Varenicline Nitraso Impurity</a>
+								<p class="c-num">CAS No. 19774-82-4</p>
+							</td>
+							<td>98%</td>
+							<td>10 kg</td>
+							<td>5</td>
+							<td><div class="btn-group" id="status" data-toggle="buttons">
+	           			   <label class="btn btn-default btn-on btn-xs">
+	              			<input type="radio" name="2"value="1" name="multifeatured_module[module_id][status]" onclick="Check(this)">YES</label>
+	              			<label class="btn btn-default btn-off btn-xs">
+	              			<input type="radio" name="2"value="0" name="multifeatured_module[module_id][status]" onclick="Check(this)">NO</label>
+	           			 </div>
+	        				</td>
+	        			</tr>
+	        			<tr>
+							<td>
+								<a href="#" class="item">MANGANESE DIOXIDE Extra Pure</a>
+								<p class="c-num">CAS No. 19774-82-4</p>
+							</td>
+							<td>100%</td>
+							<td>100 kg</td>
+							<td>1</td>
+							<td><div class="btn-group" id="status" data-toggle="buttons">
+	           			   <label class="btn btn-default btn-on btn-xs">
+	              			<input type="radio" name="3"value="1" name="multifeatured_module[module_id][status]"onclick="Check(this)">YES</label>
+	              			<label class="btn btn-default btn-off btn-xs">
+	              			<input type="radio" name="3"value="0" name="multifeatured_module[module_id][status]"onclick="Check(this)">NO</label>
+	           			 </div>
+	        				</td>
+	        			</tr>
+	        			<tr>
+							<td>
+								<a href="#" class="item">Diethanolamine (For Synthesis)</a>
+								<p class="c-num">CAS No. 19774-82-4</p>
+							</td>
+							<td>99%</td>
+							<td>1 kg</td>
+							<td>3</td>
+							<td><div class="btn-group" id="status" data-toggle="buttons">
+	           			   <label class="btn btn-default btn-on btn-xs">
+	              			<input type="radio" name="4"value="1" name="multifeatured_module[module_id][status]"onclick="Check(this)">YES</label>
+	              			<label class="btn btn-default btn-off btn-xs">
+	              			<input type="radio" name="4"value="0" name="multifeatured_module[module_id][status]"onclick="Check(this)">NO</label>
+	           			 </div>
+	        				</td>
+	        			</tr>
+	        			<tr>
+							<td>
+								<a href="#" class="item">Cyclohexylamine extrapure AR</a>
+								<p class="c-num">CAS No. 19774-82-4</p>
+							</td>
+							<td>90%</td>
+							<td>3 kg</td>
+							<td>6</td>
+							<td><div class="btn-group" id="status" data-toggle="buttons">
+	           			   <label class="btn btn-default btn-on btn-xs">
+	              			<input type="radio" name="5"value="1" name="multifeatured_module[module_id][status]"onclick="Check(this)">YES</label>
+	              			<label class="btn btn-default btn-off btn-xs">
+	              			<input type="radio" name="5"value="0" name="multifeatured_module[module_id][status]" onclick="Check(this)">NO</label>
+	           			 </div>
+	        				</td>
+	        			</tr>
+	        			<tr class="text-center pt-4">
+	        				<td colspan="5">
+							<input class="btn btn-secondary save mt-5" id="submit" type="submit" name="submit" disabled>
+	        			</td>
+	        			</tr>
+						</form>
+					</tbody>
+				</table>
+			</div>
+			</div>
+		</div>
+	</div>
+	<script>	
+function Check(el) {
+  var button = document.getElementById("submit");
+  var nbr_of_checked_no = document.querySelectorAll('input[type=radio][value=no]:checked').length;
+  var nbr_checked_radios = document.querySelectorAll('input[type=radio]:checked').length;
+  if (nbr_of_checked_no>0 || nbr_checked_radios<5) {
+    button.disabled = true;
+  } else {
+    button.disabled = false;
+  }
+}
+</script>
+</body>
+</html>				
